@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Project</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">TAE SIMMONS CV PROJECT 1</h1>
+    <hr>
+    <img src="img/IMG_2619.jpg" alt="IMG_2619" width="250">
+    
+    <h2>Tae Simmons</h2>
+    <p>Email: <a href="mailto:simmonsavonte2011@gmail.com">simmonsavonte2011@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/avontesimmons/">Connect on LinkedIn!</a></p>
+
+    <h3>SUMMARY</h3>
+    <p>A very motivated, determined, and aspiring individual with a strong history of accomplishing every set goal. As of today, my ultimate goal is to start a new career in tech and prove to myself that once again I can do anything I set my mind to. I'm eager to take on the challenge and continue to learn as much as possible from my mentor and instructors.</p>
+
+    <h3>EDUCATION</h3>
+    <ul>
+        <li>Dunbar High School (Valedictorian)</li>
+        <li>Western Illinois University - Bachelor of Science in Communication and Management (2016)</li>
+        <li>I've self-taught myself some simple basics of coding in the past</li>
+        <li>Springboard was the first school I applied to in Career Choice for Amazon</li>
+        <li>My nickname is Superman because I never give up!</li>
+        <li>I like to dance in my downtime!</li>
+    </ul>
+
+    <h3>THE FUTURE!</h3>
+    <p>This is the first project I have worked on, but I am going to do many more to learn as much as possible. I plan to be a part of many events and groups that will get me further in my quest to become a software developer!</p>
+
+    <h3>CONTACT ME!</h3>
+    <form action="/action_page.php">
+        <label for="reason">Reason For Contact:</label>
+        <select name="Contact" id="reason">
+            <option value="Just curious">Curious</option>
+            <option value="I want to collab">Collab</option>
+            <option value="Donation">Donate</option>
+            <option value="Referral">Referral</option>
+            <option value="I want to know more">Learn More</option>
+        </select>
+        <br><br>
+
+        <h3>In What Ways Do You Deal With Problems? (select all that apply)</h3>
+        <input type="checkbox" id="accept-it" name="solution" value="Acceptance">
+        <label for="accept-it">Accept it</label>
+        <br>
+        <input type="checkbox" id="change-it" name="solution" value="Change">
+        <label for="change-it">Change It</label>
+        <br>
+        <input type="checkbox" id="leave-it" name="solution" value="Leave">
+        <label for="leave-it">Leave it</label>
+        <br><br>
+
+        <label for="full-name">Full Name</label>
+        <input type="text" name="name" id="full-name" placeholder="First and Last Name" required>
+        
+        <label for="email-address">Email Address</label>
+        <input type="email" name="_replyto" id="email-address" placeholder="example@test.com" required>
+        
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" placeholder="Detailed message here." required></textarea>
+        
+        <input type="hidden" name="_subject" value="Contact Form Submission">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+
+</html>

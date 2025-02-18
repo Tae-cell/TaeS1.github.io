@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #e74c3c; /* Bright red for the main title */
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #2c3e50; /* Dark navy color for headings */
+    border-bottom: 2px solid #e74c3c; /* Underline with bright red */
+    padding-bottom: 5px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #e74c3c; /* Red color for horizontal rules */
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px; /* Center the image with bottom margin */
+    border-radius: 50%; /* Make the profile image circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+p, li {
+    margin-bottom: 10px; /* Space between paragraphs and list items */
+}
+
+ul {
+    list-style-type: square; /* Square bullets for lists */
+    padding-left: 20px; /* Indentation for list items */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+    margin-bottom: 20px; /* Space below the table */
+}
+
+th, td {
+    border: 1px solid #e74c3c; /* Red border for table cells */
+    padding: 10px;
+    text-align: left; /* Left align text */
+}
+
+th {
+    background-color: #e74c3c; /* Bright red background for header */
+    color: white; /* White text for better contrast */
+}
+
+form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for form depth */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%; 
+    padding: 10px;
+    margin: 5px 0 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #e74c3c; 
+    color: white; 
+    padding: 10px 15px;
+    border: none; 
+    border-radius: 4px; /
+    cursor: pointer; 
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #c0392b; 
+}
+
+label {
+    font-weight: bold; 
+}
